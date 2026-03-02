@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive 3D [ersonal Portfolio Website Using HTML CSS & JS</title>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Boxicons Link -->
+     <!-- navbar -->
+     <nav class="nav">
+     <ul class="nav-list">
+     <li class="active">
+        <i class='bx bx-home-alt'></i>
+        <span class="tooltip">Home</span>
+     </li>
+     <li>
+        <i class='bx bx-user'></i>
+        <span class="tooltip">About</span>
+     </li>
+     <li>
+        <i class='bx bx-detail'></i>
+        <span class="tooltip">Resume</span>
+     </li>
+     <li>
+         <i class='bx bx-briefcase'></i>
+         <span class="tooltip">Portfolio</span>
+     </li>
+     <li>
+         <i class='bx bx-envelope'></i>
+        <span class="tooltip">Contact</span> 
+     </li>
+     </ul>
+     </nav>
+
+     <div class="container">
+        <div class="box">
+            <!-- home section -->
+            <section class="section home active">
+            <div class="home-info">
+                <h3>Hellow I'm</h3>
+                <h1>Xu Lu</h1>
+                <h3>Frontend Developer Intern</h3>
+                <p class="desc">
+                A passionate frontend development intern with solid foundations in HTML, CSS and JavaScript. 
+                Proficient in Vue.js and responsive layout, committed to building user-friendly and visually appealing web interfaces. 
+                Eager to learn new technologies and contribute to real-world projects with practical coding skills.</p>
+                <div class="btn-sci">
+                    <a href="#" class="btn">DownLoad CV</a>
+                    <div class="sci">
+                        <a href="#" class="">
+                            <i class="bx bxl-github"></i>
+                            <span class="tooltip">Github</span>
+                        </a>
+                        <a href="#" class="">
+                            <i class="bx bx-envelope"></i>
+                            <span class="tooltip">Email me</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="img-wrapper">
+                <div class="img-box home-img">
+                <img src="img/me.png" alt="">
+                </div>
+            </div>
+            </section>
+
+            <!-- about section -->
+            <section class="section about">
+                <div class="img-wrapper">
+                    <div class="img-box about-img">
+                        <img src="img/me.png" alt="">
+                    </div>
+                </div>
+
+                <div class="about-info">
+                    <h2 class="title">About Me</h2>
+                    <h3>Frontend Developer Intern!</h3>
+                    <p class="desc">  
+                    前端开发新人 | 专注于用户界面与交互实现<br>
+                    技能栈：HTML/CSS/JS、Vue.js、响应式设计、Git<br>
+                    追求「简洁、高效、可复用」的代码风格，持续学习，持续输出。</p>
+                    <a href="#" class="btn">View More</a>
+                </div>
+            </section>
+            <!-- resume (experience, skills, education) section -->
+            <section class="section resume">
+                <h2 class="title">Resume</h2>
+                <div class="tab-box">
+                    <div class="tab-list resume-list active">
+                        <h3>Experience</h3>
+                    </div>
+                    <div class="tab-list resume-list">
+                        <h3>Skills</h3>
+                    </div>
+                    <div class="tab-list resume-list">
+                        <h3>Education</h3>
+                    </div>
+                </div>
+                <div class="tab-wrapper">
+                    <div class="tab-grid resume-box experience active">
+                        <div class="tab-item resume-item">
+                            <h4>暂无工作/实习经历，期待您的招聘面试</h4>
+                            
+                        </div>
+                        <div class="tab-item resume-item">
+                            <h4>2022-2023</h4>
+                            <p>学习并参与于ctf比赛，擅长使用网络信息搜索工具，具有良好的信息收集能力</p>
+                        </div>
+                        <div class="tab-item resume-item">
+                            <h4>2023-2025</h4>
+                            <h4>大学生创新创业项目成员</h4>
+                            <h4>获计算机设计大赛国家三等奖、华为开放原子开源大赛三等奖</h4>
+                            <p>在项目中负责数据收集，sklean数据处理，k-means聚类以及LSTM模型训练，前端Echarts图表可视化工作</p>
+                        </div>
+                    </div>
+
+                    <div class="tab-grid resume-box skills">
+                        <div class="tab-item resume-item">
+                            <i class="bx bxl-html5"></i>
+                            <p>HTML5</p>
+                        </div>
+                        <div class="tab-item resume-item">
+                            <i class="bx bxl-css3"></i>
+                            <p>CSS</p>
+                        </div>
+                        <div class="tab-item resume-item">
+                            <i class="bx bxl-javascript"></i>
+                            <p>JavaScript</p>
+                        </div>
+                        <div class="tab-item resume-item">
+                            <i class="bx bxl-vuejs"></i>
+                            <p>VUE.js</p>
+                        </div>
+                        <div class="tab-item resume-item">
+                        <i class="bx bxl-python"></i>
+                            <p>Python</p>
+                        </div>
+                        <div class="tab-item resume-item">
+                        <i class="bx bxl-c-plus-plus"></i>
+                            <p>C/C++</p>
+                        </div>
+                    </div>
+
+                    <div class="tab-grid resume-box education">
+                    <div class="tab-item resume-item">
+                            <h4>2025-2026</h4>
+                            <h4>项目开发者</h4>
+                            <h4>web课程设计</h4>
+                            <p>基于Tomcat部署于云服务器的图书商城管理系统</p>
+                        </div>
+                        <div class="tab-item resume-item">
+                            <h4>2024-2025</h4>
+                            <h4>睿抗机器人比赛成员</h4>
+                            <h4>ROS赛道</h4>
+                            <p>在虚拟机上基于ROS完成双端通信、循迹模逆等内容</p>
+                        </div>
+                        <div class="tab-item resume-item">
+                            <h4>2023-2024</h4>
+                            <h4>参赛人员</h4>
+                            <h4>蓝桥杯c/c++赛道</h4>
+                            <p>获得一次省级三等奖、一次省级二等奖</p>
+                        </div>
+                        <div class="tab-item resume-item">
+                            <h4>2022-2026</h4>
+                            <h4>主修课程</h4>
+                            <h4>c/c++、数据结构、计算机组成原理、计算机网络、操作系统...</h4>
+                            <p>辅修：java、python、linux、web开发、数据库原理、汇编语言...</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- portfolio (work, service) section -->
+            <section class="section portfolio">
+                <h2 class="title">Portfolio</h2>
+                <div class="tab-box">
+                    <div class="tab-list portfolio-list active">
+                        <h3>My Work</h3>
+                    </div>
+                    <div class="tab-list portfolio-list">
+                        <h3>My Service</h3>
+                    </div>
+                </div>
+                <div class="tab-wrapper">
+                    <div class="tab-grid portfolio-box work active">
+                        <div class="tab-item portfolio-item">
+                            <div class="work-img">
+                                <img src="img/work.png" alt=""/>
+                            </div>
+                            <div class="work-info">
+                                <h4>BookShop Program</h4>
+                                <p>实现用户注册、用户登录、商品购买、商品管理、金额计算等功能</p>
+                                <div class="tech-used">
+                                    <p>基于HTML,CSS,JSP,Jquary，部署于Tomcat服务器并上传于阿里云服务器</p>
+                                </div>
+                                <div class="portfolio-icon work-icon">
+                                    <a href="#">
+                                        <i class="bx bx-arrow-back"></i>
+                                        <span class="tooltip">Preview</span>
+                                    </a>
+                                    <a href="#">
+                                        <i class="bx bxl-github"></i>
+                                        <span class="tooltip">Github Resposition</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                         <div class="tab-item portfolio-item">
+                            <div class="work-img">
+                                <img src="img/work2.jpg" alt=""/>
+                            </div>
+                            <div class="work-info">
+                                <h4>BookShop Program</h4>
+                                <p>实现用户注册、用户登录、商品购买、商品管理、金额计算等功能</p>
+                                <div class="tech-used">
+                                    <p>基于HTML,CSS,JSP,Jquary，部署于Tomcat服务器并上传于阿里云服务器</p>
+                                </div>
+                                <div class="portfolio-icon work-icon">
+                                    <a href="#">
+                                        <i class="bx bx-arrow-back"></i>
+                                        <span class="tooltip">Preview</span>
+                                    </a>
+                                    <a href="#">
+                                        <i class="bx bxl-github"></i>
+                                        <span class="tooltip">Github Resposition</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-item portfolio-item">
+                            <div class="work-img">
+                                <img src="img/work3.png" alt=""/>
+                            </div>
+                            <div class="work-info">
+                                <h4>BookShop Program</h4>
+                                <p>实现用户注册、用户登录、商品购买、商品管理、金额计算等功能</p>
+                                <div class="tech-used">
+                                    <p>基于HTML,CSS,JSP,Jquary，部署于Tomcat服务器并上传于阿里云服务器</p>
+                                </div>
+                                <div class="portfolio-icon work-icon">
+                                    <a href="#">
+                                        <i class="bx bx-arrow-back"></i>
+                                        <span class="tooltip">Preview</span>
+                                    </a>
+                                    <a href="#">
+                                        <i class="bx bxl-github"></i>
+                                        <span class="tooltip">Github Resposition</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-item portfolio-item">
+                            <div class="work-img">
+                                <img src="img/work3.png" alt=""/>
+                            </div>
+                            <div class="work-info">
+                                <h4>BookShop Program</h4>
+                                <p>实现用户注册、用户登录、商品购买、商品管理、金额计算等功能</p>
+                                <div class="tech-used">
+                                    <p>基于HTML,CSS,JSP,Jquary，部署于Tomcat服务器并上传于阿里云服务器</p>
+                                </div>
+                                <div class="portfolio-icon work-icon">
+                                    <a href="#">
+                                        <i class="bx bx-arrow-back"></i>
+                                        <span class="tooltip">Preview</span>
+                                    </a>
+                                    <a href="#">
+                                        <i class="bx bxl-github"></i>
+                                        <span class="tooltip">Github Resposition</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+
+                    <div class="tab-grid portfolio-box service">
+                        <div class="tab-item portfolio-item">
+                            <div class="portfolio-icon service-icon">
+                                <i class="bx bx-code-alt icon"></i>
+                                <a href="#"><i class="bx bx-arrow-back"></i></a>
+                            </div>
+                            <h4>Web Development</h4>
+                            <p>service test</p>
+                        </div>
+                        <div class="tab-item portfolio-item">
+                            <div class="portfolio-icon service-icon">
+                                <i class="bx bx-palette icon"></i>
+                                <a href="#"><i class="bx bx-arrow-back"></i></a>
+                            </div>
+                            <h4>Graphic Design</h4>
+                            <p>service test</p>
+                        </div>
+                        <div class="tab-item portfolio-item">
+                            <div class="portfolio-icon service-icon">
+                                <i class="bx bxs-paint icon"></i>
+                                <a href="#"><i class="bx bx-arrow-back"></i></a>
+                            </div>
+                            <h4>UI/UX Design</h4>
+                            <p>service test</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- contact section -->
+            <section class="section contact active">
+                <h2 class="title">Contact</h2>
+                <div class="contact-wrapper">
+                    <form action="" class="contact-form">
+                        <h3>正在求职，期待与您共事!</h3>
+                        <div class="field-box">
+                            <input type="text" placeholder="姓名" required>
+                            <input type="email" placeholder="邮件地址" required>
+                            <input type="text" placeholder="联系电话" required>
+                            <input type="text" placeholder="邮件主题" required>
+                            <textarea name="" id="" placeholder="您的信息" required></textarea>
+                        </div>
+                        <div class="contact-btn">
+                            <button type="submit" class="btn">Send Message</button>
+                        </div>
+                    </form>    
+                </div>
+            </section>
+        </div>
+     </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
