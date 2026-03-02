@@ -43,6 +43,6 @@
 - 响应式：在 `style.css` 的 `@media` 媒体查询中，调整不同屏幕尺寸下的布局、字体大小等。
 
 ## 📞 联系我
-- Email：1556624230@qq.comqq.com
+- Email：1556624230@qq.com
 - GitHub：[[https://github.com/你的GitHub用户名](https://github.com/你的GitHub用户名)](https://github.com/seven0409)
 
